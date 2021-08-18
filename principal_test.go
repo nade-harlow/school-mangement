@@ -19,6 +19,14 @@ func TestPrincipal_Admit(t *testing.T)  {
 			},
 			expect: map[int]students{1: {id: 1 ,name: "jim", class: "js1"}},
 		},
+		{
+			//input1: Principal{name: "tim"},
+			input2: applicant{
+				name: "timmy",
+				age: 14,
+			},
+			expect: map[int]students{1: {id: 1 ,name: "jim", class: "js1"}, 2: {id: 2 ,name: "timmy", class: "js2"}},
+		},
 
 	}
 	for _, v := range admit {
