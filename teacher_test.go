@@ -13,7 +13,7 @@ func TestTeachers_Grade(t *testing.T)  {
 	}{
 		{
 			input1: Teachers{
-				"fin",
+				"Miss Ann",
 			},
 			input2: students{
 				id: 1,

@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 type Principal struct {
 	name string
 
@@ -16,8 +14,6 @@ func (p Principal) Admit(a applicant) map[int]students {
 			class: "js1",
 
 		}
-	}else {
-		fmt.Println("you can stay home")
 	}
 	if a.age > 12 && a.age <= 15 {
 		StudentsList[len(StudentsList)+1]= students{

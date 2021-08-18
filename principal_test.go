@@ -51,7 +51,7 @@ func TestPrincipal_Expel(t *testing.T)  {
 				class: "js1",
 
 			},
-			expect: map[int]students{},
+			expect: map[int]students{2:{id: 2 ,name: "timmy", class:"js2" }},
 		},
 		}
 
