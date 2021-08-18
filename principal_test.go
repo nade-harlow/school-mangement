@@ -19,6 +19,7 @@ func TestPrincipal_Admit(t *testing.T)  {
 			},
 			expect: map[int]students{1: {id: 1 ,name: "jim", class: "js1"}},
 		},
+
 	}
 	for _, v := range admit {
 		f := v.input1.Admit(v.input2)

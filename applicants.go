@@ -12,4 +12,3 @@ func (a applicant) Applicants( name string, age int)  {
 	a.name= name
 	a.age= age
 }
-
